@@ -1,0 +1,42 @@
+# ----------------------------------------
+# Hugo Build & Generated Files
+# ----------------------------------------
+
+# Hugo build output (your site is published from /docs, not /public)
+public/
+
+# Hugo generated resources (cache of processed assets)
+resources/_gen/
+
+# Temporary local build output
+.tmpdist/
+
+# Hugo build lock file
+.hugo_build.lock
+
+# ----------------------------------------
+# OS-specific files
+# ----------------------------------------
+
+# Windows
+Thumbs.db
+
+# ----------------------------------------
+# Editor / IDE files
+# ----------------------------------------
+
+# VS Code
+.vscode/
+
+# ----------------------------------------
+# VS Code Workspace file
+# ----------------------------------------
+penaporta.vercel.app.code-workspace
+
+# ----------------------------------------
+# Why? The folder doesn't exist and is not
+# needed for the project, but it is being
+# tracked by git for some reason.
+# This will ignore it.
+# ----------------------------------------
+scripts/

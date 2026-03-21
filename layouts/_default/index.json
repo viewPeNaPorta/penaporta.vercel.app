@@ -1,0 +1,14 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- /* Keep the search index limited to published article pages. */ -}}
+{{- range where site.RegularPages "Type" "posts" -}}
+    {{- if not .Params.searchHidden -}}
+    {{- $.Scratch.Add "index" (dict
+        "title" .Title
+        "content" .Plain
+        "permalink" .Permalink
+        "summary" .Summary
+        "section" .Section
+        "date" (.Date | time.Format "2006-01-02")) -}}
+    {{- end -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

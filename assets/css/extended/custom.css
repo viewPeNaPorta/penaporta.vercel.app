@@ -1,0 +1,123 @@
+/* Keep local styling limited to the custom header; PaperMod handles the rest. */
+
+.pnp-header {
+  margin-bottom: 16px;
+}
+
+.pnp-brand-row {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 12px;
+}
+
+.pnp-brand-copy {
+  text-align: center;
+}
+
+.pnp-brand-title {
+  display: block;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.pnp-brand-subtitle {
+  margin: 4px 0 0;
+  font-size: 1rem;
+  color: var(--secondary);
+}
+
+.pnp-nav {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 0 12px;
+}
+
+.pnp-nav-left,
+.pnp-nav-right,
+.pnp-nav-left #menu {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  white-space: nowrap;
+}
+
+.pnp-nav-left #menu {
+  margin: 0;
+}
+
+.pnp-nav-left #menu li + li {
+  margin-inline-start: 0;
+}
+
+.pnp-nav-left #menu a,
+.pnp-nav-sep,
+.pnp-icon-link {
+  display: inline-flex;
+  align-items: center;
+  line-height: 24px;
+  height: 24px;
+}
+
+.pnp-nav-sep {
+  margin-inline: 2px;
+  color: var(--secondary);
+}
+
+.pnp-icon-link {
+  justify-content: center;
+  width: 24px;
+  color: var(--primary);
+}
+
+.pnp-icon-link svg,
+.pnp-theme-toggle svg {
+  width: 18px;
+  height: 18px;
+  transform: translateY(1px);
+}
+
+.pnp-nav-right .pnp-icon-link svg {
+  transform: translateY(2px);
+}
+
+.pnp-theme-toggle {
+  border: 0;
+  background: transparent;
+  color: var(--primary);
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .pnp-brand-title {
+    font-size: 1.45rem;
+  }
+
+  .pnp-brand-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .pnp-nav,
+  .pnp-nav-left,
+  .pnp-nav-right,
+  .pnp-nav-left #menu {
+    gap: 10px;
+  }
+
+  .pnp-nav {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding: 0 8px;
+  }
+}

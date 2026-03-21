@@ -1,0 +1,23 @@
+{{- define "main" }}
+<section class="post-content" style="text-align:center; max-width: 760px; margin: 0 auto; padding: 2rem 1rem;">
+  <h1>A porta existe. Esta página é que não.</h1>
+  <p>
+    O link pode estar desatualizado, incompleto ou simplesmente errado.
+    Em vez de parar aqui, escolhe um caminho:
+  </p>
+
+  <p>
+    <a href="{{ "" | absLangURL }}"><strong>Início</strong></a>
+    ·
+    <a href="{{ "publications" | absLangURL }}"><strong>Textos</strong></a>
+    ·
+    <a href="{{ "about" | absLangURL }}"><strong>Sobre</strong></a>
+    ·
+    <a href="{{ "search" | absLangURL }}"><strong>Pesquisar</strong></a>
+  </p>
+
+  <p>
+    No Pé na Porta, até os erros servem para voltar ao essencial.
+  </p>
+</section>
+{{- end }}

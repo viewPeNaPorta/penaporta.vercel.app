@@ -1,0 +1,38 @@
+baseURL = 'https://view.penaporta.vercel.app/'
+languageCode = 'pt-PT'
+defaultContentLanguage = 'pt'
+title = 'Pé na Porta'
+theme = 'PaperMod'
+
+# JSON output powers the local search index.
+[outputs]
+    home = ['HTML', 'RSS', 'JSON']
+
+[params]
+    description = "Dados contra o ilusionismo. O debate que Portugal insiste em evitar."
+    author = "Pé na Porta"
+    siteSubtitle = "Estamos a discutir os problemas certos?"
+    # Keep PaperMod lists and post navigation limited to articles.
+    mainSections = ['posts']
+    ShowReadingTime = true
+    ShowPostNavLinks = true
+
+    [[params.socialIcons]]
+        name = "email"
+        url = "mailto:view.penaporta@proton.me"
+
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/"
+
+[menu]
+    [[menu.main]]
+        identifier = "publications"
+        name = "Textos"
+        url = "/publications/"
+        weight = 10
+    [[menu.main]]
+        identifier = "about"
+        name = "Sobre"
+        url = "/about/"
+        weight = 20
