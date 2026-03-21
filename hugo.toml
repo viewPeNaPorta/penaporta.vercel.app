@@ -1,4 +1,4 @@
-baseURL = 'https://view.penaporta.vercel.app/'
+baseURL = 'https://penaporta.vercel.app/'
 languageCode = 'pt-PT'
 defaultContentLanguage = 'pt'
 title = 'Pé na Porta'
@@ -23,7 +23,7 @@ theme = 'PaperMod'
 
     [[params.socialIcons]]
         name = "github"
-        url = "https://github.com/"
+        url = "https://github.com/viewPeNaPorta"
 
 [menu]
     [[menu.main]]
