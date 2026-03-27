@@ -17,6 +17,12 @@ theme = 'PaperMod'
     ShowReadingTime = true
     ShowPostNavLinks = true
 
+    [params.assets]
+        favicon = "/images/favicon-logo.png"
+        favicon16x16 = "/images/favicon-logo.png"
+        favicon32x32 = "/images/favicon-logo.png"
+        apple_touch_icon = "/images/favicon-logo.png"
+
     [[params.socialIcons]]
         name = "email"
         url = "mailto:view.penaporta@proton.me"
