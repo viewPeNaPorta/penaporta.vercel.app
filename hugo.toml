@@ -18,10 +18,10 @@ theme = 'PaperMod'
     ShowPostNavLinks = true
 
     [params.assets]
-        favicon = "/images/favicon-logo.png"
-        favicon16x16 = "/images/favicon-logo.png"
-        favicon32x32 = "/images/favicon-logo.png"
-        apple_touch_icon = "/images/favicon-logo.png"
+        favicon = "/images/favicon.png"
+        favicon16x16 = "/images/favicon-16x16.png"
+        favicon32x32 = "/images/favicon-32x32.png"
+        apple_touch_icon = "/images/apple-touch-icon.png"
 
     [[params.socialIcons]]
         name = "email"
