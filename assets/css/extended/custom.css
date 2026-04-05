@@ -121,3 +121,12 @@
     padding: 0 8px;
   }
 }
+
+@media (min-width: 901px) {
+  .post-content p,
+  .post-content li {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+  }
+}
